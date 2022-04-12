@@ -48,12 +48,13 @@ class ImageRectAnimView @JvmOverloads constructor(
         val whiteRegion1 = Region(0, 0, animWidth, 50)
         val whiteRegion2 = Region(newViewWidth - animWidth, 50, newViewWidth, 100)
 
-        val success1 = whiteRegion1.op(whiteRegion2, Region.Op.UNION)
+        whiteRegion1.op(whiteRegion2, Region.Op.UNION)
         val success2 = whiteRegion1.op(colorRegion, Region.Op.UNION)
 
         if (success2) {
             Log.d("LJW", "合并成功")
             val path = whiteRegion1.boundaryPath
+            //取并集
             canvas.clipPath(path, Region.Op.INTERSECT)
             canvas.drawColor(Color.RED)
             canvas.drawBitmap(bitmap, 0f, 0f, bitmapPaint)
