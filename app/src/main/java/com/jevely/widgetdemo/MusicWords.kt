@@ -9,7 +9,7 @@ import kotlin.concurrent.thread
 /**
  * 歌词渐变文字
  */
-class KnowledgeTabTextView @JvmOverloads constructor(
+class MusicWords @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
 
