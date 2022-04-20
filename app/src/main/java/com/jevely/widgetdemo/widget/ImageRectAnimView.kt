@@ -1,10 +1,11 @@
-package com.jevely.widgetdemo
+package com.jevely.widgetdemo.widget
 
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
+import com.jevely.widgetdemo.R
 import kotlin.concurrent.thread
 
 /**

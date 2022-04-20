@@ -1,4 +1,4 @@
-package com.jevely.widgetdemo
+package com.jevely.widgetdemo.widget
 
 import android.content.Context
 import android.graphics.*
