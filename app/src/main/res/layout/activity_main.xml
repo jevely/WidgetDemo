@@ -28,15 +28,25 @@
     <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 
+<!--    <Button-->
+<!--        android:id="@+id/bt"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+<!--    <com.jevely.widgetdemo.widget.TestObjectAnimatorView-->
+<!--        android:id="@+id/objectView"-->
+<!--        android:layout_width="48dp"-->
+<!--        android:src="@mipmap/ic_launcher"-->
+<!--        android:layout_height="48dp" />-->
+
     <Button
         android:id="@+id/bt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
-    <com.jevely.widgetdemo.widget.TestObjectAnimatorView
-        android:id="@+id/objectView"
-        android:layout_width="48dp"
-        android:src="@mipmap/ic_launcher"
-        android:layout_height="48dp" />
+    <com.jevely.widgetdemo.widget.LoadingCircleView
+        android:id="@+id/circleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
