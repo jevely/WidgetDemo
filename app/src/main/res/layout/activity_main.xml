@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <!--    <com.jevely.widgetdemo.widget.PowerValueView-->
@@ -28,25 +28,30 @@
     <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
 
-<!--    <Button-->
-<!--        android:id="@+id/bt"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/bt"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
 
-<!--    <com.jevely.widgetdemo.widget.TestObjectAnimatorView-->
-<!--        android:id="@+id/objectView"-->
-<!--        android:layout_width="48dp"-->
-<!--        android:src="@mipmap/ic_launcher"-->
-<!--        android:layout_height="48dp" />-->
+    <!--    <com.jevely.widgetdemo.widget.TestObjectAnimatorView-->
+    <!--        android:id="@+id/objectView"-->
+    <!--        android:layout_width="48dp"-->
+    <!--        android:src="@mipmap/ic_launcher"-->
+    <!--        android:layout_height="48dp" />-->
 
-    <Button
-        android:id="@+id/bt"
+    <!--    <Button-->
+    <!--        android:id="@+id/bt"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <!--    <com.jevely.widgetdemo.widget.LoadingCircleView-->
+    <!--        android:id="@+id/circleView"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <com.jevely.widgetdemo.widget.WaterView
+        android:id="@+id/waterView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <com.jevely.widgetdemo.widget.LoadingCircleView
-        android:id="@+id/circleView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
