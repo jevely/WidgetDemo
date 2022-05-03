@@ -13,10 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val a = findViewById<WaterView>(R.id.waterView1)
-        a.setOnClickListener {
-            a.startAnim()
-        }
 
     }
 
