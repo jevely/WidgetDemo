@@ -49,13 +49,22 @@
     <!--        android:layout_width="wrap_content"-->
     <!--        android:layout_height="wrap_content"/>-->
 
-<!--    <com.jevely.widgetdemo.widget.WaterView-->
-<!--        android:id="@+id/waterView1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content" />-->
+    <!--    <com.jevely.widgetdemo.widget.WaterView-->
+    <!--        android:id="@+id/waterView1"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content" />-->
 
-<!--    <com.jevely.widgetdemo.widget.TestWidgetView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"/>-->
+    <!--    <com.jevely.widgetdemo.widget.TestWidgetView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <!--    <com.jevely.widgetdemo.widget.TestWidgetView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <com.jevely.widgetdemo.widget.PenPaintView
+        android:id="@+id/penPaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

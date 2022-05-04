@@ -1,11 +1,9 @@
 package com.jevely.widgetdemo.widget
 
 import android.content.Context
-import android.graphics.Canvas
-import android.graphics.Color
-import android.graphics.Paint
-import android.graphics.Path
+import android.graphics.*
 import android.util.AttributeSet
+import android.util.Log
 import android.view.View
 
 class TestWidgetView @JvmOverloads constructor(
@@ -15,24 +13,33 @@ class TestWidgetView @JvmOverloads constructor(
 
     private val paint = Paint()
 
-    private val path = Path()
+    private val path= Path()
+
 
     init {
         paint.isAntiAlias = true
         paint.color = Color.BLUE
-        paint.style = Paint.Style.STROKE
-        paint.strokeCap = Paint.Cap.ROUND
-        paint.strokeWidth = 18f
+        paint.style = Paint.Style.FILL_AND_STROKE
+        paint.textSize = 36f
 
-        path.moveTo(50f, 50f)
-        path.lineTo(150f, 50f)
-        path.lineTo(150f, 100f)
+        val text = "我是李嘉伟"
+        val width = paint.measureText(text)
+        val metricsInt = paint.fontMetricsInt
+        Log.d("LJW", "top = ${metricsInt.top} | bottom = ${metricsInt.bottom}")
+        val height = metricsInt.bottom - metricsInt.top
+        Log.d("LJW","width = $width | height = $height")
+
+        val rect = Rect()
+        paint.getTextBounds(text, 0, text.length, rect)
+        Log.d(
+            "LJW",
+            "top = ${rect.top} | right = ${rect.right} | bottom = ${rect.bottom} | left = ${rect.left}"
+        )
+
     }
 
     override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
-        canvas?.drawColor(Color.GREEN)
-        canvas?.drawPath(path, paint)
     }
 
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
