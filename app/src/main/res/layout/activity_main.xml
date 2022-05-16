@@ -67,7 +67,12 @@
     <!--        android:layout_width="wrap_content"-->
     <!--        android:layout_height="wrap_content" />-->
 
-    <com.jevely.widgetdemo.widget.BitmapShaderDemoView
+<!--    <com.jevely.widgetdemo.widget.BitmapShaderDemoView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <com.jevely.widgetdemo.widget.GradualTextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
+
 </LinearLayout>
