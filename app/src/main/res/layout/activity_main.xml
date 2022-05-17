@@ -71,7 +71,11 @@
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content" />-->
 
-    <com.jevely.widgetdemo.widget.GradualTextView
+<!--    <com.jevely.widgetdemo.widget.GradualTextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <com.jevely.widgetdemo.widget.XfermodeView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
