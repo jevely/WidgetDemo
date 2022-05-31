@@ -24,6 +24,8 @@ class XfermodeView @JvmOverloads constructor(
         paint.isDither = true
         srcBitmap = getSrcBitmap()
         dstBitmap = getDstBitmap()
+
+        setLayerType(View.LAYER_TYPE_SOFTWARE, null)
     }
 
     private fun getSrcBitmap(): Bitmap {
@@ -48,15 +50,19 @@ class XfermodeView @JvmOverloads constructor(
 
     override fun draw(canvas: Canvas?) {
         super.draw(canvas)
-        val a =
-            canvas?.saveLayer(0f, 0f, width.toFloat(), height.toFloat(), null, Canvas.ALL_SAVE_FLAG)
+//        val a =
+//            canvas?.saveLayer(0f, 0f, width.toFloat(), height.toFloat(), null, Canvas.ALL_SAVE_FLAG)
+
+        canvas?.save()
 
         canvas?.drawBitmap(dstBitmap!!, 0f, 0f, paint)
         paint.xfermode = PorterDuffXfermode(PorterDuff.Mode.DST_IN)
         canvas?.drawBitmap(srcBitmap!!, 100f, 100f, paint)
         paint.xfermode = null
 
-        canvas?.restoreToCount(a!!)
+        canvas?.restore()
+
+//        canvas?.restoreToCount(a!!)
     }
 
 }
