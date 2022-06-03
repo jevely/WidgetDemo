@@ -84,7 +84,11 @@
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent" />-->
 
-    <com.jevely.widgetdemo.widget.WaveTextView
+<!--    <com.jevely.widgetdemo.widget.WaveTextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+    <com.jevely.widgetdemo.widget.SaveLayerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
