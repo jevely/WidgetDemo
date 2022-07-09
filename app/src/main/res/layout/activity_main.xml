@@ -67,29 +67,33 @@
     <!--        android:layout_width="wrap_content"-->
     <!--        android:layout_height="wrap_content" />-->
 
-    <!--    <com.jevely.widgetdemo.widget.BitmapShaderDemoView-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content" />-->
+    <!--        <com.jevely.widgetdemo.widget.BitmapShaderDemoView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content" />-->
 
     <!--    <com.jevely.widgetdemo.widget.GradualTextView-->
     <!--        android:layout_width="wrap_content"-->
     <!--        android:layout_height="wrap_content"/>-->
 
-<!--        <com.jevely.widgetdemo.widget.XfermodeView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"/>-->
+    <!--        <com.jevely.widgetdemo.widget.XfermodeView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"/>-->
 
-<!--    <com.jevely.widgetdemo.widget.EraserImageView-->
-<!--        android:id="@+id/eraserImageView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent" />-->
+    <!--    <com.jevely.widgetdemo.widget.EraserImageView-->
+    <!--        android:id="@+id/eraserImageView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
 
-<!--    <com.jevely.widgetdemo.widget.WaveTextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"/>-->
+    <!--    <com.jevely.widgetdemo.widget.WaveTextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
 
-    <com.jevely.widgetdemo.widget.SaveLayerView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    <!--    <com.jevely.widgetdemo.widget.SaveLayerView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+
+    <com.jevely.widgetdemo.widget.ShapeDrawableViewMagnifier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
